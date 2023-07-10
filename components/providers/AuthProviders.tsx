@@ -1,28 +1,28 @@
-// FILE: HomePage.tsx
+'use client'
+// FILE: components/providers/AuthProviders.tsx
+// _______________________________________________
 // _______________________________________________
 
-import { NextPage } from "next";
-// _______________________________________________
-
-// type HomeProps = {
+// type AuthProvidersProps = {
 // 	mockProp?: string;
 // };
 // _______________________________________________
 
-const HomePage: NextPage = () => {
+const AuthProviders = () => {
 	
 	// _________________ [functions] ___________________
 	
 	
 	// _________________________________________________
 	return (
-		//==== <>fragments</> ====
-		<main>
-			<div>Home Page</div>
-		</main>
+		<>
+			<div>
+				<h1>AuthProviders</h1>
+			</div>
+		</>
 	);
 };
 // _______________________________________________
 
-export default HomePage;
+export default AuthProviders;
 // _______________________________________________
